@@ -1,6 +1,8 @@
 import React from 'react'
 import './s3.scss'
 import pic from './image.png'
+import { LIST } from '../../static'
+
 
 const S3 = () => {
   return (
@@ -11,10 +13,13 @@ const S3 = () => {
                     <h2>Clean and <br /> fragrant soy wax</h2>
                     <b>Made for your home and for your wellness</b>
                     <ul>
-                        <li><p>Eco-sustainable:All recyclable materials, 0% CO2 emissions</p></li>
-                        <li><p>Hyphoallergenic: 100% natural, human friendly ingredients </p></li>
-                        <li><p>Handmade: All candles are craftly made with love.</p></li>
-                        <li><p>Long burning: No more waste. Created for last long.</p></li>
+                        {
+                          LIST.map((item)=>{
+                            return<li>
+                              <p href="#">{item}</p>
+                              </li>
+                          })
+                        }
                     </ul>
                     <button>Learn more</button>
                 </div>

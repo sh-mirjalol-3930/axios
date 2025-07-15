@@ -15,7 +15,7 @@ const Header = () => {
                         <li><select name="" id="">
                             <option value="Discovery">Discovery</option>
                             <option value="bir nima">bir nima</option>
-                            <option value="bir nima">bir nima</option>
+                            <option value="nimadur">nimadur</option>
                         </select></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact us</a></li>

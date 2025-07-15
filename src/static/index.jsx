@@ -1,0 +1,2 @@
+
+export const LIST = ["Eco-sustainable:All recyclable materials, 0% CO2 emissions","Hyphoallergenic: 100% natural, human friendly ingredients ","Handmade: All candles are craftly made with love.","Long burning: No more waste. Created for last long."]   
